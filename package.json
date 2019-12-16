@@ -1,0 +1,30 @@
+{
+  "name": "legion-of-mary-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodigi7/legion-of-mary-server.git"
+  },
+  "author": "yodigi7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yodigi7/legion-of-mary-server/issues"
+  },
+  "homepage": "https://github.com/yodigi7/legion-of-mary-server#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
